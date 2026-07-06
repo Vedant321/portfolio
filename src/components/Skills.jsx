@@ -2,6 +2,10 @@ import SectionLabel from './SectionLabel';
 
 const groups = [
   {
+    label: 'Data Engineering',
+    items: ['Data Warehousing', 'Snowflake', 'dbt', 'Data Modeling', 'Star Schema Design', 'OLTP / OLAP', 'ETL / ELT Pipelines', 'PostgreSQL'],
+  },
+  {
     label: 'ML & AI',
     items: ['Python', 'PyTorch', 'Scikit-Learn', 'MLflow', 'MLOps', 'Reinforcement Learning', 'LLMs', 'A/B Testing', 'GCP / Vertex AI', 'AWS'],
   },
@@ -20,7 +24,7 @@ export default function Skills() {
     <section id="skills" className="max-w-6xl mx-auto px-6 py-20">
       <SectionLabel index="06" title="Skills" note="Instrumentation" />
 
-      <div className="grid md:grid-cols-3 gap-5">
+      <div className="grid md:grid-cols-2 gap-5">
         {groups.map((g) => (
           <div key={g.label} className="corner-frame border border-[var(--color-paper-line)] bg-[var(--color-panel)] shadow-sm p-5">
             <p className="font-mono text-[11px] text-[var(--color-teal)] mb-4 uppercase tracking-wider">

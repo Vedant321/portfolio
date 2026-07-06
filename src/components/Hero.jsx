@@ -9,8 +9,8 @@ export default function Hero() {
           Vedant Shinde
         </h1>
         <p className="mt-5 font-mono text-sm sm:text-base text-[var(--color-ink-soft)] max-w-lg">
-          Data Scientist / ML Engineer — building systems that turn raw signals into
-          decisions: anomaly detection, RL agents, and pipelines that run unattended.
+          Data Engineer / Data Scientist — building the pipelines that move data
+          reliably and the models that turn it into decisions.
         </p>
         <p className="mt-5 text-[15px] text-[var(--color-ink)] max-w-lg leading-relaxed">
           MS in Data Science candidate at the University at Buffalo, previously a Senior
@@ -49,7 +49,7 @@ export default function Hero() {
             <img
               src="/images/headshot.jpg"
               alt="Vedant Shinde"
-              className="w-full aspect-[4/5] object-cover grayscale-[15%] contrast-[1.05]"
+              className="w-full aspect-[6/5] object-cover object-top grayscale-[15%] contrast-[1.05]"
             />
             {/* corner crosshairs on the photo itself */}
             <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 100 100" preserveAspectRatio="none">
@@ -63,7 +63,7 @@ export default function Hero() {
             </span>
           </div>
           <div className="flex items-center justify-between mt-3 px-1 font-mono text-[10.5px] text-[var(--color-ink-soft)]">
-            <span>V.SHINDE — DS/ML ENGINEER</span>
+            <span>V.SHINDE — DATA ENGINEER / SCIENTIST</span>
             <span>SCALE 1:1 · REV. 2026</span>
           </div>
         </div>

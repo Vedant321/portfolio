@@ -32,6 +32,7 @@ export default function About() {
           <div className="mb-4">
             <p className="text-[var(--color-heading)] font-medium">MS, Data Science</p>
             <p className="text-[var(--color-ink-soft)] text-xs">University at Buffalo · Aug 2025 – Dec 2026</p>
+            <p className="text-[var(--color-ink-soft)] text-xs">GPA: 3.54 / 4.0</p>
           </div>
           <div className="mb-4">
             <p className="text-[var(--color-heading)] font-medium">BE, Information Technology</p>

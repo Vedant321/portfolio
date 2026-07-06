@@ -26,7 +26,7 @@ export default function Nav() {
       }`}
     >
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="#top" className="font-[var(--font-display)] font-semibold text-lg text-[var(--color-navy-deep)] flex items-center gap-2">
+        <a href="#top" className="font-[var(--font-display)] font-semibold text-lg text-[var(--color-heading)] flex items-center gap-2">
           <svg width="20" height="20" viewBox="0 0 32 32" aria-hidden="true">
             <circle cx="16" cy="16" r="9" fill="none" stroke="var(--color-amber)" strokeWidth="1.5" />
             <line x1="16" y1="2" x2="16" y2="8" stroke="var(--color-amber)" strokeWidth="1.5" />
@@ -41,7 +41,7 @@ export default function Nav() {
         <ul className="hidden md:flex items-center gap-8 font-mono text-[13px] text-[var(--color-ink-soft)]">
           {links.map((l) => (
             <li key={l.href}>
-              <a href={l.href} className="hover:text-[var(--color-navy-deep)] transition-colors">
+              <a href={l.href} className="hover:text-[var(--color-heading)] transition-colors">
                 {l.label}
               </a>
             </li>
@@ -51,13 +51,13 @@ export default function Nav() {
         <a
           href="/Vedant_Shinde_Resume.pdf"
           download
-          className="hidden md:inline-block font-mono text-xs px-4 py-2 border border-[var(--color-navy-deep)] text-[var(--color-navy-deep)] hover:bg-[var(--color-navy-deep)] hover:text-[var(--color-paper)] transition-colors"
+          className="hidden md:inline-block font-mono text-xs px-4 py-2 border border-[var(--color-heading)] text-[var(--color-heading)] hover:bg-[var(--color-heading)] hover:text-[var(--color-paper)] transition-colors"
         >
           Resume ↓
         </a>
 
         <button
-          className="md:hidden text-[var(--color-navy-deep)]"
+          className="md:hidden text-[var(--color-heading)]"
           onClick={() => setOpen((o) => !o)}
           aria-label="Toggle menu"
           aria-expanded={open}
@@ -83,7 +83,7 @@ export default function Nav() {
               </li>
             ))}
             <li>
-              <a href="/Vedant_Shinde_Resume.pdf" download className="text-[var(--color-navy-deep)]">
+              <a href="/Vedant_Shinde_Resume.pdf" download className="text-[var(--color-heading)]">
                 Resume ↓
               </a>
             </li>

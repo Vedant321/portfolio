@@ -20,25 +20,25 @@ export default function Contact() {
           </p>
           <a
             href="mailto:vedantve@gmail.com"
-            className="inline-block mt-6 font-mono text-sm px-5 py-3 bg-[var(--color-navy-deep)] text-[var(--color-paper)] hover:bg-[var(--color-navy)] transition-colors"
+            className="inline-block mt-6 font-mono text-sm px-5 py-3 bg-[var(--color-heading)] text-[var(--color-paper)] hover:bg-[var(--color-amber)] transition-colors"
           >
             Email me →
           </a>
         </div>
 
-        <div className="corner-frame border border-[var(--color-paper-line)] bg-white/50 divide-y divide-[var(--color-paper-line)]">
+        <div className="corner-frame border border-[var(--color-paper-line)] bg-[var(--color-panel)] shadow-sm divide-y divide-[var(--color-paper-line)]">
           {links.map((l) => (
             <a
               key={l.label}
               href={l.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-between px-5 py-4 hover:bg-white transition-colors group"
+              className="flex items-center justify-between px-5 py-4 hover:shadow-md transition-colors group"
             >
               <span className="font-mono text-xs text-[var(--color-ink-soft)] uppercase tracking-wider">
                 {l.label}
               </span>
-              <span className="font-mono text-sm text-[var(--color-navy-deep)] group-hover:text-[var(--color-teal)] transition-colors">
+              <span className="font-mono text-sm text-[var(--color-heading)] group-hover:text-[var(--color-teal)] transition-colors">
                 {l.value}
               </span>
             </a>

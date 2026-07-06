@@ -30,7 +30,7 @@ export default function Experience() {
 
       <div className="grid md:grid-cols-[220px_1fr] gap-8">
         <div>
-          <p className="font-[var(--font-display)] text-xl font-semibold text-[var(--color-navy-deep)]">
+          <p className="font-[var(--font-display)] text-xl font-semibold text-[var(--color-heading)]">
             Morgan Stanley
           </p>
           <p className="font-mono text-xs text-[var(--color-ink-soft)] mt-1">Senior Associate — SRE Automation</p>

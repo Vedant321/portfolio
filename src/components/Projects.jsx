@@ -63,7 +63,7 @@ export default function Projects() {
             href={p.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="corner-frame group border border-[var(--color-paper-line)] bg-white/50 p-5 flex flex-col hover:bg-white hover:border-[var(--color-teal)] transition-colors"
+            className="corner-frame group border border-[var(--color-paper-line)] bg-[var(--color-panel)] shadow-sm p-5 flex flex-col hover:shadow-md hover:border-[var(--color-teal)] transition-colors"
           >
             <div className="flex items-center justify-between mb-3">
               <span className="font-mono text-[11px] text-[var(--color-ink-soft)]">{p.id}</span>
@@ -71,7 +71,7 @@ export default function Projects() {
                 {p.linkLabel}
               </span>
             </div>
-            <h3 className="font-[var(--font-display)] font-semibold text-[var(--color-navy-deep)] text-[17px] leading-snug mb-2">
+            <h3 className="font-[var(--font-display)] font-semibold text-[var(--color-heading)] text-[17px] leading-snug mb-2">
               {p.title}
             </h3>
             <p className="text-[13.5px] leading-relaxed text-[var(--color-ink-soft)] flex-1">{p.desc}</p>

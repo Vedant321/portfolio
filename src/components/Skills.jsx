@@ -22,7 +22,7 @@ export default function Skills() {
 
       <div className="grid md:grid-cols-3 gap-5">
         {groups.map((g) => (
-          <div key={g.label} className="corner-frame border border-[var(--color-paper-line)] bg-white/50 p-5">
+          <div key={g.label} className="corner-frame border border-[var(--color-paper-line)] bg-[var(--color-panel)] shadow-sm p-5">
             <p className="font-mono text-[11px] text-[var(--color-teal)] mb-4 uppercase tracking-wider">
               {g.label}
             </p>

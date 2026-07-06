@@ -27,14 +27,14 @@ export default function About() {
           </p>
         </div>
 
-        <div className="corner-frame border border-[var(--color-paper-line)] bg-white/50 p-5 font-mono text-[13px]">
+        <div className="corner-frame border border-[var(--color-paper-line)] bg-[var(--color-panel)] shadow-sm p-5 font-mono text-[13px]">
           <p className="text-[var(--color-teal)] text-xs mb-3">// EDUCATION LOG</p>
           <div className="mb-4">
-            <p className="text-[var(--color-navy-deep)] font-medium">MS, Data Science</p>
+            <p className="text-[var(--color-heading)] font-medium">MS, Data Science</p>
             <p className="text-[var(--color-ink-soft)] text-xs">University at Buffalo · Aug 2025 – Dec 2026</p>
           </div>
           <div className="mb-4">
-            <p className="text-[var(--color-navy-deep)] font-medium">BE, Information Technology</p>
+            <p className="text-[var(--color-heading)] font-medium">BE, Information Technology</p>
             <p className="text-[var(--color-ink-soft)] text-xs">VPPCOE&VA, Mumbai · 2017 – 2021</p>
           </div>
           <div className="pt-3 border-t border-[var(--color-paper-line)] text-xs text-[var(--color-ink-soft)]">

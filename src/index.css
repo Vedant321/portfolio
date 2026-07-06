@@ -5,15 +5,16 @@
   --font-body: 'IBM Plex Sans', sans-serif;
   --font-mono: 'IBM Plex Mono', monospace;
 
-  --color-paper: #EEF1F6;
-  --color-paper-line: #C7D0E0;
-  --color-ink: #16233F;
-  --color-ink-soft: #445070;
-  --color-navy: #0F1F3D;
-  --color-navy-deep: #0A1730;
-  --color-amber: #E8A33D;
-  --color-teal: #2F9E8F;
-  --color-red-pin: #C0503C;
+  --color-paper: #F5F3EC;
+  --color-paper-line: #DAD6C8;
+  --color-panel: #FFFFFF;
+  --color-ink: #23262B;
+  --color-ink-soft: #5B5F6B;
+  --color-heading: #14161A;
+  --color-amber: #C1631B;
+  --color-teal: #0E7C6B;
+  --color-red-pin: #B23A2E;
+  --color-violet: #4A4E9E;
 }
 
 html {
@@ -42,7 +43,7 @@ body {
 
 ::selection {
   background-color: var(--color-amber);
-  color: var(--color-navy-deep);
+  color: var(--color-panel);
 }
 
 .corner-frame {

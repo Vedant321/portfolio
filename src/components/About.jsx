@@ -14,12 +14,13 @@ export default function About() {
             is only useful once it's actually running in front of someone who needs it.
           </p>
           <p>
-            Now I'm back in school at the University at Buffalo, going deeper on the parts
-            of ML I only had time to apply before: reinforcement learning, statistical
-            learning theory, and the engineering underneath large language models. Outside
-            of coursework, I build end-to-end projects — from a Vertex AI RLAIF pipeline
-            to a hackathon tool that reads western blot data out of research PDFs — because
-            I'd rather ship something small and real than leave it in a notebook.
+            Now I'm back in school at the University at Buffalo, focused on reinforcement learning,
+            statistical learning, and how large language models work under the hood.
+            Alongside coursework, I build end-to-end projects that combine data engineering and
+            machine learning — a dbt and PostgreSQL pipeline modeling 600,000+
+            supply chain records into a star schema, a Vertex AI pipeline fine-tuning an LLM with RLAIF,
+            and a hackathon tool that pulls structured data out of research PDFs. I'd rather ship something
+            small and real than leave it in a notebook.
           </p>
           <p>
             I'm looking for Data Engineering, Data Science, or ML Engineering roles where

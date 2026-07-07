@@ -14,7 +14,7 @@ const projects = [
     title: 'RLAIF Flight Booking Dialogue Agent',
     desc: 'A 3-stage RLAIF pipeline fine-tuning Mistral-7B + LoRA via PPO on 5,000+ AirDialogue samples, with a Gemini simulator and AI judge scoring responses 1–10 — no human labelling required. Fixed float16 overflow and PPO ratio divergence with mixed-precision training and separate actor-critic optimizers.',
     stack: ['Vertex AI', 'PPO', 'LoRA', 'Mistral-7B', 'GCP'],
-    link: 'https://github.com/Vedant321',
+    link: 'https://github.com/Vedant321/flight-booking-rl-agent',
     linkLabel: 'GitHub profile ↗',
   },
   {

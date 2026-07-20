@@ -49,7 +49,7 @@ export default function Nav() {
         </ul>
 
         <a
-          href="/Vedant_Shinde_Resume.pdf"
+          href="/Vedant_Shinde_UB_Resume1.pdf"
           download
           className="hidden md:inline-block font-mono text-xs px-4 py-2 border border-[var(--color-heading)] text-[var(--color-heading)] hover:bg-[var(--color-heading)] hover:text-[var(--color-paper)] transition-colors"
         >
@@ -83,7 +83,7 @@ export default function Nav() {
               </li>
             ))}
             <li>
-              <a href="/Vedant_Shinde_Resume.pdf" download className="text-[var(--color-heading)]">
+              <a href="/Vedant_Shinde_UB_Resume1.pdf" download className="text-[var(--color-heading)]">
                 Resume ↓
               </a>
             </li>

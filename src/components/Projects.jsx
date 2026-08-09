@@ -1,4 +1,3 @@
-
 import SectionLabel from './SectionLabel';
 
 const projects = [
@@ -70,7 +69,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section>
+    <>
       <SectionLabel
         index="04"
         title="Projects"
@@ -117,6 +116,6 @@ export default function Projects() {
           </a>
         ))}
       </div>
-    </section>
+    </>
   );
 }

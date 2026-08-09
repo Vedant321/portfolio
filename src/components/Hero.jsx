@@ -14,7 +14,7 @@ export default function Hero() {
         </p>
         <p className="mt-5 text-[15px] text-[var(--color-ink)] max-w-lg leading-relaxed">
           MS in Data Science candidate at the University at Buffalo, previously a Senior
-          Associate in SRE Automation at Morgan Stanley, where I spent four years
+          Associate at Morgan Stanley, where I spent four years
           instrumenting production systems so failures show up on a dashboard before they
           show up in an incident channel.
         </p>

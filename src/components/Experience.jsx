@@ -33,7 +33,7 @@ export default function Experience() {
           <p className="font-[var(--font-display)] text-xl font-semibold text-[var(--color-heading)]">
             Morgan Stanley
           </p>
-          <p className="font-mono text-xs text-[var(--color-ink-soft)] mt-1">Senior Associate — SRE Automation</p>
+          <p className="font-mono text-xs text-[var(--color-ink-soft)] mt-1">Senior Associate — Python DEveloper (SRE)</p>
           <p className="font-mono text-xs text-[var(--color-ink-soft)] mt-1">Mumbai, India</p>
           <p className="font-mono text-xs text-[var(--color-teal)] mt-3">Oct 2021 – Jul 2025</p>
         </div>

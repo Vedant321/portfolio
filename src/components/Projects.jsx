@@ -1,3 +1,4 @@
+
 import SectionLabel from './SectionLabel';
 
 const projects = [
@@ -11,6 +12,14 @@ const projects = [
   },
   {
     id: 'P-02',
+    title: 'Product Analytics Platform',
+    desc: 'An end-to-end product analytics lakehouse processing large-scale e-commerce clickstream data with PySpark, Delta Lake, and Databricks. Built Bronze, Silver, and Gold layers with sessionization, customer and product metrics, and analytics-ready datasets for downstream insights.',
+    stack: ['Databricks', 'PySpark', 'Delta Lake', 'SQL'],
+    link: 'https://github.com/Vedant321/product-analytics-platform',
+    linkLabel: 'View repo ↗',
+  },
+  {
+    id: 'P-03',
     title: 'RLAIF Flight Booking Dialogue Agent',
     desc: 'A 3-stage RLAIF pipeline fine-tuning Mistral-7B + LoRA via PPO on 5,000+ AirDialogue samples, with a Gemini simulator and AI judge scoring responses 1–10 — no human labelling required. Fixed float16 overflow and PPO ratio divergence with mixed-precision training and separate actor-critic optimizers.',
     stack: ['Vertex AI', 'PPO', 'LoRA', 'Mistral-7B', 'GCP'],
@@ -18,7 +27,7 @@ const projects = [
     linkLabel: 'GitHub profile ↗',
   },
   {
-    id: 'P-03',
+    id: 'P-04',
     title: 'LLM SQL Query Assistant',
     desc: 'A Streamlit app that turns plain-English questions into SQL against a 10k+ record movie dataset, so non-technical users can get answers without writing a query.',
     stack: ['LLM', 'Streamlit', 'SQL'],
@@ -26,7 +35,7 @@ const projects = [
     linkLabel: 'View repo ↗',
   },
   {
-    id: 'P-04',
+    id: 'P-05',
     title: 'Online Retail Customer Analysis',
     desc: 'RFM feature engineering across 500k+ transactions, comparing Logistic Regression, XGBoost, and Random Forest for high-value customer targeting. Best model shipped via FastAPI, containerized with Docker, and hosted on Render for live inference.',
     stack: ['XGBoost', 'FastAPI', 'Docker', 'MLflow'],
@@ -34,7 +43,7 @@ const projects = [
     linkLabel: 'View repo ↗',
   },
   {
-    id: 'P-05',
+    id: 'P-06',
     title: 'Autonomous Warehouse Robot (RL)',
     desc: 'A Gymnasium-compliant warehouse environment built from scratch, with SARSA, Q-learning, and Deep Q-Network agents trained to pick and deliver under constraints — a 10% lift in episodic reward with stable performance under stochastic conditions.',
     stack: ['Gymnasium', 'DQN', 'SARSA', 'Q-Learning'],
@@ -42,7 +51,7 @@ const projects = [
     linkLabel: 'View repo ↗',
   },
   {
-    id: 'P-06',
+    id: 'P-07',
     title: 'RL Stock Trading Agent',
     desc: 'Q-learning over two years of historical Nvidia data with $100k simulated capital — custom state and reward functions, tuned hyperparameters, and full performance visualization for risk-aware trading decisions.',
     stack: ['Q-Learning', 'Python', 'Pandas'],
@@ -50,9 +59,9 @@ const projects = [
     linkLabel: 'View repo ↗',
   },
   {
-    id: 'P-07',
+    id: 'P-08',
     title: 'HiveBlot — QBI Hackathon @ UCSF',
-    desc: 'Built with a 9-person team in one weekend: extracts protein targets, cell lines, antibodies, and experimental conditions directly from western blot figures in research PDFs, then makes it searchable in plain language. Won 2nd place. Hosted under a teammate\u2019s GitHub.',
+    desc: 'Built with a 9-person team in one weekend: extracts protein targets, cell lines, antibodies, and experimental conditions directly from western blot figures in research PDFs, then makes it searchable in plain language. Won 2nd place. Hosted under a teammate’s GitHub.',
     stack: ['LLM', 'PDF Parsing', 'Search'],
     link: 'https://github.com/Ananya-Jha-code/QBI/tree/main',
     linkLabel: 'View repo ↗',
@@ -61,8 +70,12 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="max-w-6xl mx-auto px-6 py-20">
-      <SectionLabel index="04" title="Projects" note={`${projects.length} systems, shipped end-to-end`} />
+    <section>
+      <SectionLabel
+        index="04"
+        title="Projects"
+        note={`${projects.length} systems, shipped end-to-end`}
+      />
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {projects.map((p) => (
@@ -74,18 +87,29 @@ export default function Projects() {
             className="corner-frame group border border-[var(--color-paper-line)] bg-[var(--color-panel)] shadow-sm p-5 flex flex-col hover:shadow-md hover:border-[var(--color-teal)] transition-all"
           >
             <div className="flex items-center justify-between mb-3">
-              <span className="font-mono text-[11px] text-[var(--color-ink-soft)]">{p.id}</span>
+              <span className="font-mono text-[11px] text-[var(--color-ink-soft)]">
+                {p.id}
+              </span>
+
               <span className="font-mono text-[11px] text-[var(--color-teal)] opacity-0 group-hover:opacity-100 transition-opacity">
                 {p.linkLabel}
               </span>
             </div>
+
             <h3 className="font-[var(--font-display)] font-semibold text-[var(--color-heading)] text-[17px] leading-snug mb-2">
               {p.title}
             </h3>
-            <p className="text-[13.5px] leading-relaxed text-[var(--color-ink-soft)] flex-1">{p.desc}</p>
+
+            <p className="text-[13.5px] leading-relaxed text-[var(--color-ink-soft)] flex-1">
+              {p.desc}
+            </p>
+
             <div className="flex flex-wrap gap-2 mt-4 pt-3 border-t border-[var(--color-paper-line)]">
               {p.stack.map((s) => (
-                <span key={s} className="font-mono text-[10.5px] px-2 py-1 bg-[var(--color-paper)] text-[var(--color-ink)] border border-[var(--color-paper-line)]">
+                <span
+                  key={s}
+                  className="font-mono text-[10.5px] px-2 py-1 bg-[var(--color-paper)] text-[var(--color-ink)] border border-[var(--color-paper-line)]"
+                >
                   {s}
                 </span>
               ))}

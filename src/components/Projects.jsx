@@ -69,7 +69,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <>
+    <section className="max-w-7xl mx-auto px-6">
       <SectionLabel
         index="04"
         title="Projects"
@@ -116,6 +116,6 @@ export default function Projects() {
           </a>
         ))}
       </div>
-    </>
+    </section>
   );
 }

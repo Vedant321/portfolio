@@ -8,23 +8,22 @@ export default function About() {
         <div className="space-y-5 text-[15px] leading-relaxed text-[var(--color-ink)]">
           <p>
             I spent four years at Morgan Stanley making sure other engineers' 2 a.m. pages
-            never had to happen — building anomaly detection on messaging infrastructure,
+            never had to happen - building anomaly detection on messaging infrastructure,
             wiring up telemetry across fifty-plus microservices, and automating the
             triage work that used to eat a full shift. That's where I learned that a model
             is only useful once it's actually running in front of someone who needs it.
           </p>
           <p>
-            Now I'm back in school at the University at Buffalo, focused on reinforcement learning,
-            statistical learning, and how large language models work under the hood.
-            Alongside coursework, I build end-to-end projects that combine data engineering and
-            machine learning — a dbt and PostgreSQL pipeline modeling 600,000+
-            supply chain records into a star schema, a Vertex AI pipeline fine-tuning an LLM with RLAIF,
-            and a hackathon tool that pulls structured data out of research PDFs. I'd rather ship something
-            small and real than leave it in a notebook.
+            Now I'm back in school at the University at Buffalo, building deeper skills across
+            data engineering and machine learning. Alongside coursework, I build end-to-end
+            projects that take data from ingestion to analysis and deployment, including a
+            dbt and PostgreSQL pipeline modeling 600,000+ supply chain records into a star
+            schema, a Databricks Lakehouse processing 110M+ behavioral events, and ML projects
+            that explore model training and deployment.
           </p>
           <p>
-            I'm looking for Data Engineering, Data Science, or ML Engineering roles where
-            I can work close to production systems again.
+            I'm looking for Data Engineering, Data Science, ML & Software Engineering roles where
+            I can apply my Data skills again.
           </p>
         </div>
 
@@ -40,8 +39,8 @@ export default function About() {
             <p className="text-[var(--color-ink-soft)] text-xs">VPPCOE&VA, Mumbai · 2017 – 2021</p>
           </div>
           <div className="pt-3 border-t border-[var(--color-paper-line)] text-xs text-[var(--color-ink-soft)]">
-            <p>Coursework: Machine Learning, Statistical Learning,</p>
-            <p>Probability, Data Models & Query Languages, RL</p>
+            <p>Coursework: Data Warehousing, Machine Learning, Statistical Learning,</p>
+            <p>Probability, Data Models & Query Languages, Reinforcement Learning</p>
           </div>
         </div>
       </div>

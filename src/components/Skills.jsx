@@ -3,11 +3,11 @@ import SectionLabel from './SectionLabel';
 const groups = [
   {
     label: 'Data Engineering',
-    items: ['Data Warehousing', 'Snowflake', 'dbt', 'Data Modeling', 'Star Schema Design', 'OLTP / OLAP', 'ETL / ELT Pipelines', 'PostgreSQL'],
+    items: ['Data Warehousing', 'PostgreSQL', 'dbt', 'Data Modeling', 'PySpark', 'Star Schema Design', 'OLTP / OLAP', 'ETL / ELT Pipelines', 'Snowflake'],
   },
   {
     label: 'ML & AI',
-    items: ['Python', 'PyTorch', 'Scikit-Learn', 'MLflow', 'MLOps', 'Reinforcement Learning', 'LLMs', 'A/B Testing', 'GCP / Vertex AI', 'AWS'],
+    items: ['Python', 'PyTorch', 'Scikit-Learn', 'MLflow', 'MLOps', 'Reinforcement Learning', 'LLMs', 'A/B Testing', 'GCP / Vertex AI', 'AWS', 'MCP'],
   },
   {
     label: 'Languages & Databases',

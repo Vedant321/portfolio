@@ -15,7 +15,7 @@ export default function Contact() {
       <div className="grid md:grid-cols-2 gap-10 items-start">
         <div>
           <p className="text-[15px] leading-relaxed text-[var(--color-ink)] max-w-md">
-            Open to Data Engineering, Data Science, and ML Engineering roles. If something
+            Open to Data Engineering, Data Science, ML & Software Engineering roles. If something
             here is relevant to what you're building, I'd like to hear about it.
           </p>
           <a

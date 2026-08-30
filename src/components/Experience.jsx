@@ -38,7 +38,7 @@ export default function Experience() {
             Morgan Stanley
           </p>
           <p className="font-mono text-xs text-[var(--color-ink-soft)] mt-1">
-            Senior Associate — Python Developer (SRE)
+            Senior Associate — Python Developer
           </p>
           <p className="font-mono text-xs text-[var(--color-ink-soft)] mt-1">
             Mumbai, India

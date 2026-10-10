@@ -65,6 +65,14 @@ const projects = [
     link: 'https://github.com/Ananya-Jha-code/QBI/tree/main',
     linkLabel: 'View repo ↗',
   },
+  {
+    id: 'P-09',
+    title: 'GoingOnce — Agentic AI for Automotive Auctions',
+    desc: 'Won 1st place at UB’s AI for Good Hackathon in the ACV Auctions Challenge. Built a multi-agent platform to help automotive dealers find vehicles, identify hidden history risks, generate listings, negotiate deals, and optimize fleet distribution. Human approval stays in the loop for financial decisions.',
+    stack: ['LangGraph', 'Python', 'LLMs', 'React'],
+    link: '',
+    linkLabel: '',
+  },
 ];
 
 export default function Projects() {

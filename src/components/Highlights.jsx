@@ -2,6 +2,15 @@ import SectionLabel from './SectionLabel';
 
 const items = [
   {
+    tag: '1ST PLACE',
+    color: 'var(--color-amber)',
+    title: 'AI for Good Hackathon — ACV Auctions Challenge @ UB',
+    date: 'Fall 2026',
+    desc: 'Won 1st place with Team GoingOnce by building an agentic AI platform for automotive dealers. Four specialized agents help buyers find vehicles and uncover hidden risks, help sellers create listings and identify interested buyers, negotiate deals, and optimize fleet distribution. Built with mentor feedback during the hackathon, with human approval for financial decisions.',
+    image: '/images/UB_hackathon_winning1.jpeg',
+    caption: 'Team GoingOnce at the AI for Good Hackathon',
+  },
+  {
     tag: '2ND PLACE',
     color: 'var(--color-amber)',
     title: 'QBI Hackathon @ UCSF',
